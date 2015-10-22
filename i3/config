@@ -1,6 +1,6 @@
 set $mod Mod4
 
-font pango:MonoSpace 13px
+font pango:Fira Code 13px
 
 new_window pixel 3
 focus_follows_mouse  yes
@@ -76,11 +76,11 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+6 workspace back_and_forth
 
 # switch to workspace
-bindsym $mod+1 workspace 1: www
-bindsym $mod+2 workspace 2: text
-bindsym $mod+3 workspace 3: code
-bindsym $mod+4 workspace 4: term
-bindsym $mod+5 workspace 5: music
+bindsym $mod+1 workspace 1: 
+bindsym $mod+2 workspace 2: 
+bindsym $mod+3 workspace 3: 
+bindsym $mod+4 workspace 4: 
+bindsym $mod+5 workspace 5: <span font_desc='FontAwesome'>  </span>
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1: www
@@ -138,7 +138,7 @@ bar {
         position top
         status_command i3blocks -c ~/.i3blocks.conf
 
-        position top
+
         colors {
                 statusline #F1D585 
                 background #484848
