@@ -31,6 +31,7 @@ bindsym $mod+c kill
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run -l 0 -x 734 -y 500 -w 450 -h 35 -fn "Share Tech Mono-12:Bold" -nb "#0A0F13" -nf "#F1D585" -sb "#F1D585" -sf "#2B303B" -p ">" -q -i
 
+
 # screen lock
 bindsym Control+$mod+l exec i3lock-wrapper
 
@@ -141,7 +142,7 @@ bar {
 
         colors {
                 statusline #F1D585 
-                background #484848
+                background #19191D
                 focused_workspace #F1D585 $gray2 #FFFFFF
                 inactive_workspace #0A0F13 $gray1 #F1D585 
         }
