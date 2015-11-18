@@ -74,14 +74,15 @@ bindsym $mod+Shift+F floating toggle
 bindsym $mod+space focus mode_toggle
 
 # switch to last workspace
-bindsym $mod+6 workspace back_and_forth
+bindsym $mod+7 workspace back_and_forth
 
 # switch to workspace
 bindsym $mod+1 workspace 1: 
-bindsym $mod+2 workspace 2: 
-bindsym $mod+3 workspace 3: 
+bindsym $mod+2 workspace 2: 
+bindsym $mod+3 workspace 3: 
 bindsym $mod+4 workspace 4: 
 bindsym $mod+5 workspace 5: <span font_desc='FontAwesome'>  </span>
+bindsym $mod+6 workspace 6: Other
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1: www
@@ -93,6 +94,9 @@ bindsym $mod+Shift+3 move container to workspace 3: code
 bindsym $mod+Shift+4 move container to workspace 4: term
 
 bindsym $mod+Shift+5 move container to workspace 5: music
+
+bindsym $mod+Shift+6 move container to workspace 6: other
+
 
 bindsym $mod+z reload
 bindsym $mod+Shift+x restart
